@@ -13,6 +13,7 @@ class Category(models.Model):
     Django 内置的全部类型可查看文档：
     https://docs.djangoproject.com/en/1.10/ref/models/fields/#field-types
 	'''
+    
     name = models.CharField(max_length=100)
 
     def __str__(self):
